@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Codificador e decodificador de texto. Este site foi um challenge do programa Alura/ONE 
+        (Oracle Next Education) desenvolvido para aprimorar os conhecimentos em lógica de programação, HTML, CSS e JavaScript.">
+
+        <title> Codificador e Decodificador de texto </title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="imagem/iconAlura.png"> 
+    </head>
+        
+    <body>
+        <header>
+            <img class="logo" src="imgem/logoAlura.svg" alt="logo da alura">
+            <h1 class="title">Desafio Alura + ONE/Oracle </h1>
+        </header>
+        
+
+        <div class="main"> 
+            
+                <div class="encrypt">
+                    <textarea cols="10" name="" id="txt_area1" placeholder="Digite seu texto..." class="line text-animation"></textarea>
+            
+                    <div class="info">
+                        <img src="imgem/exclamation.svg" alt="ponto de exclamação" width="12px" >
+                        <p >Apenas letras minúsculas e sem acento.</p>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="button criptografa">Criptografar</button>
+                        <button class="button descriptografa">Descriptografar</button>
+                    </div>
+                </div>
+            
+        </div>
+            
+        
+        <div id="decrypt">
+            <img class="icone" id="icone" src="imgem/lupa.svg" alt="imagem procurando com lupa">
+            <h2 id="none">Nenhuma mensagem encontrada</h2>
+            
+            <textarea cols="10" readonly name="" id="txt_area2" placeholder="[Digite um texto que você deseja criptografar ou descriptografar]"></textarea>
+    
+            <h3 id="msg"></h3>
+
+            <div id="copy"></div>
+        </div>   
+                
+        
+        <footer class="footer"> 
+
+            <p>&#169; 08/2024 <a href="https://www.linkedin.com/in/herlonromualdoludwig1967/"  rel="noreferrer noopener" target="_blank">Herlon Ludwig</a></p>
+            
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
